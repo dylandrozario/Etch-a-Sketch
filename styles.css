@@ -1,0 +1,28 @@
+.gridContainer{
+    display: flex;
+    flex-wrap: wrap;
+    height: 750px;
+    width: 750px;
+    border: 2px solid black;
+    margin: 20px 100px;
+    background-color: white;
+}
+
+.parent{
+    width: auto;
+    height: 30px;
+    margin-top: 30px;
+    background-color: white;
+    font-size: 20px;
+}
+
+.child{
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+.layout{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
